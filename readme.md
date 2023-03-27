@@ -15,6 +15,8 @@
 - How to use the Pageable interface from Spring to get data with pagination;
 - How to control the pagination and sort of data returned from API with de queryParams `page`, `size` and `sort`.
 - How to set the application properties to show and format SQL in console;
+- How to map requests using the follow annotations `@GetMapping`, `@PutMapping`, `@PostMapping`, `@DeleteMapping`;
+- How to implement the concept of logic delete with use of a boolean attribute.
 
 ## 🔗 Links
 
