@@ -54,4 +54,10 @@ public class MedicoController {
         return ResponseEntity.noContent().build(); // devolverá uma resposta sem conteúdo com o código 204
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity detalhar(@PathVariable Long id) {
+        Medico medico = repository.getReferenceById(id);
+        return ResponseEntity.ok(new DadosDetalhamentoMedico(medico));
+    }
+
 }
