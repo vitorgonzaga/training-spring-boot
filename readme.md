@@ -17,8 +17,11 @@
 - How to set the application properties to show and format SQL in console;
 - How to map requests using the follow annotations `@GetMapping`, `@PutMapping`, `@PostMapping`, `@DeleteMapping`;
 - How to implement the concept of logic to delete using a boolean attribute;
-- How to use `ResponseEntity` to customize the Controller responses as the HTTP code and add info in Headers;
-- 
+- How to use `ResponseEntity` to customize the Controller responses, modifying HTTP code and adding info in Headers when is necessary;
+- How to create a class to handle with excpetions using `@RestControlleAdvice`;
+- How to use the `@ExceptionHandler` to indicate what exception a specific method from `@RestControllerAdvice` should catch;
+- How to handle exceptions 404 (Not Found - EntityNotFoundException.class) and 400 (Bad Request - MethodArgumentNotValidException.class) for errors launched by Bean Validation;
+- How to customize the JSON returned by API em case of Bean Validation errors;
 
 ## 🔗 Links
 
