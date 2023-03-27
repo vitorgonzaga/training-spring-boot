@@ -22,6 +22,10 @@
 - How to use the `@ExceptionHandler` to indicate what exception a specific method from `@RestControllerAdvice` should catch;
 - How to handle exceptions 404 (Not Found - EntityNotFoundException.class) and 400 (Bad Request - MethodArgumentNotValidException.class) for errors launched by Bean Validation;
 - How to customize the JSON returned by API em case of Bean Validation errors;
+- How to work with Spring Security, implementing it and changing the default settings (Statefull) to work with a Rest api (Stateless);
+- Work with Auth0 java-jwt library to generate tokens;
+- How to work with environment variables in `application.properties` file together the `@Value` annotation in a class managed by Spring;
+- 
 
 ## 🔗 Links
 
