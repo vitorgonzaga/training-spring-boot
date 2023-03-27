@@ -16,7 +16,9 @@
 - How to control the pagination and sort of data returned from API with de queryParams `page`, `size` and `sort`.
 - How to set the application properties to show and format SQL in console;
 - How to map requests using the follow annotations `@GetMapping`, `@PutMapping`, `@PostMapping`, `@DeleteMapping`;
-- How to implement the concept of logic delete with use of a boolean attribute.
+- How to implement the concept of logic to delete using a boolean attribute;
+- How to use `ResponseEntity` to customize the Controller responses as the HTTP code and add info in Headers;
+- 
 
 ## 🔗 Links
 
