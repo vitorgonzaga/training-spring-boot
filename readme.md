@@ -25,7 +25,10 @@
 - How to work with Spring Security, implementing it and changing the default settings (Statefull) to work with a Rest api (Stateless);
 - Work with Auth0 java-jwt library to generate tokens;
 - How to work with environment variables in `application.properties` file together the `@Value` annotation in a class managed by Spring;
-- 
+- How to implement filters creating a class that extends `OncePerRequestFilter` from Spring;
+- How to use the Auth0 java-jwt library to validate tokens jwt;
+- Development of authentication process using the `SecurityContextHolder` class from Spring;
+- How intercept request according URL and method HTTP.
 
 ## 🔗 Links
 
