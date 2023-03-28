@@ -30,6 +30,12 @@
 - Development of authentication process using the `SecurityContextHolder` class from Spring;
 - How intercept request according URL and method HTTP.
 
+### Part 3
+
+- Implementation of features to schedule and to cancel medicals appointments (development of a class Service);
+- Development of a class Service using the `@Service` annotation and did some integration validation from information received in API;
+- Use of a complex JPQL as parameter in a `@Query` annotation in MedicoRepository to return an available doctor randomly;
+
 ## 🔗 Links
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitorgonzaga/)
