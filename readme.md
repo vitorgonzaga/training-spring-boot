@@ -39,6 +39,11 @@
 - Add SpringDoc dependency to generate automatic documentation API;
 - Using Swagger UI to display and testing the API;
 - Setting JWT at Swagger documentation and customized other properties as Info and License.
+- Development of some tests for Repository interface, following the strategy that uses the same database type (mysql), perhaps a test database;
+- Override the application.properties creating a application-test.properties used only to execute the tests through `@ActiveProfiles`;
+- Write tests for Controller class using `MockMvc` to simultate requests in the API;
+- Testing response http code 400 and 200 on it;
+- How to build the project.
 
 ## 🔗 Links
 
