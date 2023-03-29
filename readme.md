@@ -35,7 +35,10 @@
 - Implementation of features to schedule and to cancel medicals appointments (development of a class Service);
 - Development of a class Service using the `@Service` annotation and did some integration validation from information received in API;
 - Use of a complex JPQL as parameter in a `@Query` annotation in MedicoRepository to return an available doctor randomly;
-- Insert of rules business validation classes using `@Component` annotation and SOLID principles  
+- Insert of rules business validation classes using `@Component` annotation and SOLID principles;
+- Add SpringDoc dependency to generate automatic documentation API;
+- Using Swagger UI to display and testing the API;
+- Setting JWT at Swagger documentation and customized other properties as Info and License.
 
 ## 🔗 Links
 
